@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/jquery-ui/dist/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="node_modules/jquery-ui/dist/themes/base/jquery-ui.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Github Workshop</title>
+
+
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="window">
+        <div class="titlebar">
+            <div class="buttons">
+                <div class="close">
+                <a class="closebutton" href="#"><span><strong>•</strong></span></a>
+                </div>
+                <div class="minimize">
+                <a class="minimizebutton" href="#"><span><strong>-</strong></span></a>
+                </div>
+                <div class="zoom">
+                <a class="zoombutton" href="#"><span><strong>+</strong></span></a>
+                </div>
+            </div>
+            <div class="header"><img src="folder.png" alt="a folder icon in MacOS Monterey">Github Workshop</div>
+            <div class="filler">flexbox smh</div>
+        </div>
+
+        <div class="content">
+            <p><span class="machine">sune@github_workshop</span> <span class="directory">~</span> % git add *</p>
+            <p><span class="machine">sune@github_workshop</span> <span class="directory">~</span> % git commit -m "hey"</p>
+            <div class="input">
+                <label for="form_input"><span class="machine">sune@github_workshop</span> <span class="directory">~</span> % </label>
+                <input type="text" name="term_input" id="term_input">
+                <input type="submit" hidden name="term_input"/>
+            </div>
+        </div>
+        
+    </div>
+    <div class="dock">
+        <img src="dock.png" alt="The dock of my MacOS Monterey">
+    </div>
+</body>
+</html>
